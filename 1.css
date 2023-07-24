@@ -1,0 +1,350 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+body{
+  margin: 0px;
+  padding: 0px;
+background-color: #eee;
+
+}
+.grid{
+  min-height: 100vh;
+}
+
+.menu{
+  display: flex;
+/* flex-direction: row;
+flex-wrap: wrap;
+you can write these two lines in one line using flex-flow: row wrap ,
+*/
+flex-flow: row wrap;
+background-color: white;
+height: 70px;
+width: 100%;
+position: fixed;
+top: 0;
+
+
+box-shadow: 0px 0px 1px;
+height: 80px;
+}
+
+
+.nav ul {
+padding-top: 20px;
+}
+
+.nav ul li{
+
+  list-style: none;
+  display: inline-block;
+
+position: relative;
+
+}
+
+#imgicon{
+position: absolute;
+top: 5px;
+left: 115px;
+color: green;
+}
+#imgicon2{
+position: absolute;
+top: 6px;
+left: 118px;
+color: green;
+}
+
+
+#imgicon3{
+position: absolute;
+top: 6px;
+left: 145px;
+color: green;
+}
+
+.nav ul li ul   {
+
+position: absolute;
+
+display: none;
+z-index: 99999;
+
+left: 40px;
+
+
+}
+#a{
+
+}
+#b{
+  margin-left: 140px;
+}
+#c{
+  margin-left: 320px;
+}
+#d{
+width: 400px;
+}
+#e{
+    margin-left: 150px;
+    width: 400px;
+}
+#f{
+margin-left: 20px;
+width: 170px;
+height: 300px;
+
+left: 0px;
+
+}
+.parent11 {
+  margin-top: 15px;
+
+
+}
+
+.parent22{
+
+  margin-top: 15px;
+
+
+}
+
+.parent33{
+  margin-top: 15px;
+  border-radius: 10px;
+  perspective: 5px;
+}
+.nav ul li ul li {
+  padding-top: 20px;
+
+width: 300px;
+
+
+}
+
+.nav ul li:hover ul {
+display: block;
+
+height: 240px;
+
+
+background-color:#FFFFFF;
+
+
+}
+
+
+
+
+
+.nav ul li ul li a {
+  margin: 0px;
+  padding: 0px;
+  font-size: 15px;
+  margin-left: 10px;
+
+
+}
+.nav ul li ul li a:hover{
+  color: green;
+}
+.nav ul li ul li span{
+  font-size: 18px;
+
+  margin: 0px;
+  margin-left: 10px;
+}
+
+.nav ul li a{
+  text-decoration: none;
+
+  font-size: 20px;
+  margin-left: 40px;
+}
+
+#cart {
+
+}
+#logo{
+
+
+}
+
+
+
+
+.img{
+display: flex;
+
+
+}
+
+
+#img1{
+
+    z-index: -2;
+  position: relative;
+  width: 100%;
+
+/*-webkit-animation-name : slide_animation ;
+
+-webkit-animation-duration : 33s ;
+-webkit-animation-iteration-count = infinite;
+-webkit-animation-direction : alternate ;
+-webkit-animation-play-state : running;
+*/
+
+}
+/*@-webkit-keyframes slide_animation{
+
+  0%{right:0px;}
+  10%{right:1200px;}
+  20%{right:2400px;}
+  %30{right:3000px;}
+  40%{right:3500px;}
+  50%{left:0px;}
+  60%{left:0px;}
+  70%{left:3000px;}
+  80%{left:3000px;}
+  90%{right: 3000px;}
+  100%{right:3500px;}
+}*/
+#img2{
+
+      z-index: -2;
+    position: relative;
+    bottom:200px;
+/*
+  -webkit-animation-name : slide_animation ;
+  -webkit-animation-duration : 33s ;
+  -webkit-animation-iteration-count = infinite;
+  -webkit-animation-direction : alternate ;
+  -webkit-animation-play-state : running;
+*/
+}
+
+
+
+
+#leftarrow{
+position: absolute;
+z-index: 1;
+left: 65px;;
+top: 405px;
+cursor: pointer;
+}
+#rightarrow{
+position: absolute;
+z-index: 1;
+right: 55px;;
+top: 403px;
+color: red;
+cursor: pointer;
+}
+
+footer{
+  background-color: black;
+  position: sticky;
+  top: 100%;
+z-index: -2;
+}
+footer p , footer a ,footer h3 {
+  color:white;
+}
+
+.containerfooter1{
+  height: 170px;
+  width: 1349px;
+
+  display: flex;
+
+}
+
+
+
+
+.containerfooter1 button{
+
+  width: 150px;
+  height: 45px;
+
+margin-left: 20px;
+margin-top: 30px;
+
+}
+.containerfooter1 img{
+width: 200px;
+height: 50px;
+margin-top: 30px;
+
+
+}
+.containerfooter1 input{
+  width: 300px;
+  height: 40px;
+  margin-top: 30px;
+  margin-left: 200px;
+
+
+
+
+}
+
+
+.containerfooter1 section{
+
+  padding-top:  0px;
+
+  margin-top: 10px;
+
+}
+.containerfooter1 section h3{
+  height: 10px;
+  margin-left: 200px;
+
+}
+.containerfooter1 section p{
+  padding-top:  15px;
+
+  font-size: 12px;
+}
+.conatinerfooter2 section{
+display: flex;
+}
+#p2,#p3,#p4{
+
+margin-left: 200px;
+
+
+}
+.fa {
+  padding: 10px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+
+  border: 1px solid black;
+  border-radius: 50px;
+
+  margin-top: 40px;
+  margin-left: 15px;
+
+}
+
+#fa1{
+  margin-left: 330px;
+}
+#p5{
+margin-left: 500px;
+margin-top: 50px;
+
+}
+#p1{
+
+  margin-left: 20px;
+}
